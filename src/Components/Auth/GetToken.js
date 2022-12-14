@@ -1,0 +1,8 @@
+import React from 'react'
+
+function GetToken() {
+  const token = localStorage.getItem('token');
+  if(token) return token; else return false;
+}
+
+export default GetToken
